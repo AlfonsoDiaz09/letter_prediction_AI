@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: #001937;
+    color: #fff;
+}
+span{
+    background: #fd7700; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fd7700, #98ba0f); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fd7700, #98ba0f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+#resultado {
+    font-weight:  bold;
+    font-size:  6rem;
+    text-align: center;
+}
+
+.canvas-container {
+    margin: 0 auto;
+    border: 3px solid #f3db06;
+    background-color: #fff;
+}
+
+.bg_footer{
+    background-color: #ffffff;
+}
+.text_subject{
+    color: #001937;
+}
